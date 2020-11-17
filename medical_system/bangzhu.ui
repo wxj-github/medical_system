@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>bangzhu</class>
+ <widget class="QDialog" name="bangzhu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>973</width>
+    <height>838</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>系统帮助</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>30</y>
+     <width>251</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 26pt ;</string>
+   </property>
+   <property name="text">
+    <string>关于本系统</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>90</y>
+     <width>931</width>
+     <height>201</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt ;</string>
+   </property>
+   <property name="text">
+    <string>信息录入模块：
+添加顾客信息时，除备注外的内容不得为空。若输入的单号存在则无法添加，
+输入的编号若为已存在的顾客，则会自动填入最近一次的一些个人信息。
+若不小心按错，重新输入切换到其他输入框即可。
+添加经办人信息时，除备注外的内容不得为空。若输入的编号存在则无法添加。
+添加药品信息时，所有内容不得为空，若输入的药品编号已存在则无法添加。</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>290</y>
+     <width>921</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt ;</string>
+   </property>
+   <property name="text">
+    <string>查询信息模块：
+为了提高信息查询的效率，除了单号和编号外，其他搜索均采用模糊查询。</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>410</y>
+     <width>931</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt ;</string>
+   </property>
+   <property name="text">
+    <string>信息删除模块：
+用户在输入框内输入时，界面的表格就会显示符合该条件的数据，按下删除键
+就会删除列出的数据，若列出数据后更换了删除的条件则依旧按照原来的条件
+删除。</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>570</y>
+     <width>871</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt ;</string>
+   </property>
+   <property name="text">
+    <string>信息修改模块：
+要想修改信息，要先输入相应的编号进行获取信息才能进行修改。</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>670</y>
+     <width>921</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt ;</string>
+   </property>
+   <property name="text">
+    <string>信息浏览模块：
+每个信息浏览界面右下角都设有一个刷新键，若是用本系统修改了信息，点击
+刷新键才可刷新最新数据或者重新进入系统，若是关闭浏览界面重新打开数据
+并不会刷新。
+</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>831</width>
+    <height>540</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>831</width>
+    <height>540</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>831</width>
+    <height>540</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>医药信息管理系统</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>0</y>
+      <width>741</width>
+      <height>201</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 36pt &quot;方正舒体&quot;;</string>
+    </property>
+    <property name="text">
+     <string>欢迎使用</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>230</y>
+      <width>241</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>C:/Users/Administrator/Desktop/医药管理图片/timg (1).gif</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>-60</y>
+      <width>711</width>
+      <height>531</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>C:/Users/Administrator/Desktop/医药管理图片/timg (3).jpg</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>100</y>
+      <width>741</width>
+      <height>201</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 36pt &quot;方正舒体&quot;;</string>
+    </property>
+    <property name="text">
+     <string>医药管理信息系统</string>
+    </property>
+   </widget>
+   <zorder>label_4</zorder>
+   <zorder>label_3</zorder>
+   <zorder>label</zorder>
+   <zorder>label_2</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>831</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>信息录入</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="action_addcus"/>
+    <addaction name="separator"/>
+    <addaction name="action_addsales"/>
+    <addaction name="separator"/>
+    <addaction name="action_addmedi"/>
+    <addaction name="separator"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>信息查询</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="action_findcus"/>
+    <addaction name="separator"/>
+    <addaction name="action_findsales"/>
+    <addaction name="separator"/>
+    <addaction name="action_findmedi"/>
+    <addaction name="separator"/>
+   </widget>
+   <widget class="QMenu" name="menu_3">
+    <property name="title">
+     <string>信息删除</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="action_delectcus"/>
+    <addaction name="separator"/>
+    <addaction name="action_delectsales"/>
+    <addaction name="separator"/>
+    <addaction name="action_delectmedi"/>
+    <addaction name="separator"/>
+   </widget>
+   <widget class="QMenu" name="menu_4">
+    <property name="title">
+     <string>信息修改</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="action_xiugaicus"/>
+    <addaction name="separator"/>
+    <addaction name="action_xiugaisales"/>
+    <addaction name="separator"/>
+    <addaction name="action_xiugaimedi"/>
+    <addaction name="separator"/>
+   </widget>
+   <widget class="QMenu" name="menu_5">
+    <property name="title">
+     <string>信息浏览</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="separator"/>
+    <addaction name="action_readcus"/>
+    <addaction name="separator"/>
+    <addaction name="action_readsales"/>
+    <addaction name="separator"/>
+    <addaction name="action_readmedi"/>
+    <addaction name="separator"/>
+   </widget>
+   <widget class="QMenu" name="menu_6">
+    <property name="title">
+     <string>账户管理</string>
+    </property>
+    <addaction name="action_tianjia"/>
+    <addaction name="separator"/>
+    <addaction name="action_shanaccount"/>
+    <addaction name="separator"/>
+    <addaction name="action_gaimima"/>
+    <addaction name="separator"/>
+   </widget>
+   <widget class="QMenu" name="menu_7">
+    <property name="title">
+     <string>报表</string>
+    </property>
+    <addaction name="action_baobiao"/>
+    <addaction name="separator"/>
+   </widget>
+   <widget class="QMenu" name="menu_8">
+    <property name="title">
+     <string>帮助</string>
+    </property>
+    <addaction name="action_2"/>
+    <addaction name="separator"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+   <addaction name="menu_3"/>
+   <addaction name="menu_4"/>
+   <addaction name="menu_5"/>
+   <addaction name="menu_6"/>
+   <addaction name="menu_7"/>
+   <addaction name="menu_8"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="action_findcus">
+   <property name="text">
+    <string>查询顾客信息</string>
+   </property>
+  </action>
+  <action name="action_findsales">
+   <property name="text">
+    <string>查询经办人信息</string>
+   </property>
+  </action>
+  <action name="action_findmedi">
+   <property name="text">
+    <string>查询药品信息</string>
+   </property>
+  </action>
+  <action name="action_addcus">
+   <property name="text">
+    <string>录入顾客信息</string>
+   </property>
+  </action>
+  <action name="action_addsales">
+   <property name="text">
+    <string>录入经办人信息</string>
+   </property>
+  </action>
+  <action name="action_addmedi">
+   <property name="text">
+    <string>录入药品信息</string>
+   </property>
+  </action>
+  <action name="action_delectcus">
+   <property name="text">
+    <string>删除顾客信息</string>
+   </property>
+  </action>
+  <action name="action_delectsales">
+   <property name="text">
+    <string>删除经办人信息</string>
+   </property>
+  </action>
+  <action name="action_delectmedi">
+   <property name="text">
+    <string>删除药品信息</string>
+   </property>
+  </action>
+  <action name="action_xiugaicus">
+   <property name="text">
+    <string>修改顾客信息</string>
+   </property>
+  </action>
+  <action name="action_xiugaisales">
+   <property name="text">
+    <string>修改经办人信息</string>
+   </property>
+  </action>
+  <action name="action_xiugaimedi">
+   <property name="text">
+    <string>修改药品信息</string>
+   </property>
+  </action>
+  <action name="action_readcus">
+   <property name="text">
+    <string>浏览顾客信息</string>
+   </property>
+  </action>
+  <action name="action_readsales">
+   <property name="text">
+    <string>浏览经办人信息</string>
+   </property>
+  </action>
+  <action name="action_readmedi">
+   <property name="text">
+    <string>浏览药品信息</string>
+   </property>
+  </action>
+  <action name="action_gaimima">
+   <property name="text">
+    <string>修改密码</string>
+   </property>
+  </action>
+  <action name="action_baobiao">
+   <property name="text">
+    <string>信息报表</string>
+   </property>
+  </action>
+  <action name="action_tianjia">
+   <property name="text">
+    <string>添加账号</string>
+   </property>
+  </action>
+  <action name="action_shanaccount">
+   <property name="text">
+    <string>删除账户</string>
+   </property>
+  </action>
+  <action name="action_2">
+   <property name="text">
+    <string>关于系统</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
